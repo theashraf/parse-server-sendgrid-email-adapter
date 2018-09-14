@@ -1,0 +1,53 @@
+{
+  "name": "parse-server-sendgrid-email-adapter",
+  "version": "0.1.0",
+  "description": "parse server email adapter which uses SendGrid transactional email templates",
+  "main": "index.js",
+  "keywords": [
+    "parse-server",
+    "parse-dashboard",
+    "email-adapter",
+    "sendgrid"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "cz": "git-cz",
+    "commitmsg": "commitlint -E GIT_PARAMS",
+    "precommit": "lint-staged",
+    "format": "prettier --write \"**/*.+(js|md|json)\"",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theashraf/parse-server-sendgrid-email-adapter.git"
+  },
+  "author": "Abdelrahman Ashraf <a.theashraf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theashraf/parse-server-sendgrid-email-adapter/issues"
+  },
+  "homepage": "https://github.com/theashraf/parse-server-sendgrid-email-adapter#readme",
+  "dependencies": {
+    "@sendgrid/mail": "6.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "7.1.2",
+    "@commitlint/config-conventional": "7.1.2",
+    "commitizen": "2.10.1",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "5.5.0",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-plugin-prettier": "2.6.2",
+    "husky": "0.14.3",
+    "lint-staged": "7.2.2",
+    "prettier": "1.14.2",
+    "semantic-release": "15.9.12"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
