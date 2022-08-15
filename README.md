@@ -17,7 +17,7 @@ const config = {
   emailAdapter: sendGridAdapter({
     apiKey: '', // sendgrid api key
     from: 'myApp <info@myApp.com>', // from email address,
-    passwordResetTemplate : '', // sendGrid template ID
+    passwordResetEmailTemplate : '', // sendGrid template ID
     verificationEmailTemplate : '' // sendGrid template ID
   })
 };
